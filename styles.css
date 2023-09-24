@@ -1,0 +1,100 @@
+body {  /* changed the background color, text color, centered the text and changed font */
+    background-color: rgb(247, 236, 224);
+    text-align: center;
+    color:darkslategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color:teal;
+  }
+
+a:visited {
+    color:darkolivegreen;
+}
+
+a:hover {
+    color:green;
+    font-size: larger;
+}
+
+#main-heading { /* styled the color, font and font size to the h1 elements */
+    color: rgb(29, 61, 29);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large; /* used relative size */
+}
+
+img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+}
+
+
+p {
+    font-size: 16px; /* Font size in pixels */
+    color:rgb(29, 61, 29); /* Text color */
+    margin: 10px; /* Margin around the <p> element */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font Family for <p> element */
+}
+
+h2 { /* changing color and font */
+    color:rgb(29, 61, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 { /* changing font color */
+    color: rgb(86, 110, 86);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.concessions-list li {
+    list-style-type: none; /*removing bullet points */
+    text-align: center; /* Align text with list items to the center */
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+table { /* centering the table */
+    margin: 0 auto;
+}
+.table-container { 
+    text-align: center;
+} 
+
+/* Style the form container */
+#myForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(247, 236, 224);
+    border: 1px solid rgb(247, 236, 224);
+    border-radius: 5px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    width: 250px; /* Set a fixed width for the input fields */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(247, 236, 224);
+    border-radius: 3px;
+    font-size: 16px;
+}
+/* Style submit button */
+input[type="submit"] {
+    width: 250px;
+    padding: 10px;
+    background-color:rgb(12, 75, 12);
+    color: rgb(247, 236, 224);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color:rgb(122, 150, 73);
+}
+
